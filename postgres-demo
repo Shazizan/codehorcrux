@@ -4,3 +4,10 @@ CREATE TABLE pgtest (
 testval VARCHAR(10)
 );
 
+#Insert the value
+INSERT INTO pgtest (testval)
+VALUES ('Hello');
+
+#Execute the select statement
+SELECT testval
+FROM pgtest;
