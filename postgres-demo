@@ -1,0 +1,6 @@
+#creating a new table in postgres
+
+CREATE TABLE pgtest (
+testval VARCHAR(10)
+);
+
